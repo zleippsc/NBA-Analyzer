@@ -1,0 +1,78 @@
+body {
+    
+    background: rgb(26,106,215);
+    background: linear-gradient(90deg, rgba(26,106,215,1) 0%, rgba(93,255,253,1) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.title {
+    background: transparent;
+    padding-top: 10px;
+}
+
+.title .name {
+    font-size: 30px;
+    color: white;
+    padding-left: 22px;
+}
+
+
+.player-enter {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    /*border: 3px solid white;
+    border-radius: 10px;*/
+    transform: translateY(75%);
+}
+
+.alert-container {
+    position: fixed;
+    top: 350px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .alert {
+    border: 1px solid red;
+    padding: 10px;
+    background-color: lightpink;
+    position: relative;
+  }
+
+.player-enter label {
+    text-align: left;
+    display: block;
+}
+
+.player-enter h2 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.player-enter input, .player-enter textarea, .player-enter select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.player-enter button {
+    background: #f1356d;
+    background: linear-gradient(90deg, rgba(26,106,215,1) 0%, rgb(93, 123, 255) 100%);
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
